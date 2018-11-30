@@ -16,7 +16,7 @@ var channel = "518107578526466060";//ايدي الروم
 
 client.on('message', message => {
     let prefix = '1234say';
-   if(message.content.startsWith('say')) {
+   if(message.content.startsWith('1234say')) {
        let args = message.content.split(' ').slice(1).join(' ');
        message.channel.send(args)
    } 
